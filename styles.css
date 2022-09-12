@@ -13,6 +13,7 @@ body {
 
 header {
   position: fixed;
+  top:24.12px;
   right: 58px;
   display: flex;
 }
@@ -76,8 +77,6 @@ Button {
 
 #main-img{
     position: fixed;
-    height: 561px;
-    width: auto;
     top:216px;
     right:177px;
 }
