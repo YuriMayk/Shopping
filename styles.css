@@ -25,6 +25,9 @@ a {
   line-height: 41px;
   line-height: 100%;
 }
+a:nth-child(2){
+    opacity: 0.4;
+}
 
 section {
   margin: 381px 0 0 136px;
@@ -62,4 +65,19 @@ Button {
   border-radius: 24px;
   border: none;
   background-color: #9499ea;
+}
+
+#background-img {
+    position: fixed;
+    right: 0;
+    top:0;
+    height: 100vh;
+}
+
+#main-img{
+    position: fixed;
+    height: 561px;
+    width: auto;
+    top:216px;
+    right:177px;
 }
