@@ -13,7 +13,7 @@ body {
 
 header {
   position: fixed;
-  top:24.12px;
+  top: 24.12px;
   right: 58px;
   display: flex;
 }
@@ -26,8 +26,8 @@ a {
   line-height: 41px;
   line-height: 100%;
 }
-a:nth-child(2){
-    opacity: 0.4;
+a:nth-child(2) {
+  opacity: 0.4;
 }
 
 section {
@@ -69,14 +69,60 @@ Button {
 }
 
 #background-img {
-    position: fixed;
-    right: 0;
-    top:0;
-    height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
 }
 
-#main-img{
+#main-img {
+  position: fixed;
+  top: 216px;
+  right: 177px;
+}
+
+@media screen  and (orientation:portrait) and (max-width: 450px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    display: none;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 58px auto 93px auto;
+  }
+  h1 {
+    font-size: 36px;
+    width: 268px;
+    height: 104px;
+    line-height: 52px;
+    line-height: 97%;
+  }
+  
+  
+  p {
+    width: 296px;
+    height: 96px;
+    font-size: 14px;
+    line-height: 24px;
+    line-height: 116%;
+  }
+  #background-img {
     position: fixed;
-    top:216px;
-    right:177px;
+    top:397px;
+    width: 100%;
+  }
+
+  #main-img {
+    width: 271px;
+    height:322.95px;
+    position: static;
+    margin: 0 auto 46.05px auto;
+  }
 }
