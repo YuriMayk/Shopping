@@ -81,7 +81,7 @@ Button {
   right: 177px;
 }
 
-@media screen  and (orientation:portrait) and (max-width: 450px) {
+@media screen and (orientation: portrait) and (max-width: 950px) {
   body {
     display: flex;
     flex-direction: column;
@@ -104,8 +104,7 @@ Button {
     line-height: 52px;
     line-height: 97%;
   }
-  
-  
+
   p {
     width: 296px;
     height: 96px;
@@ -115,14 +114,52 @@ Button {
   }
   #background-img {
     position: fixed;
-    top:397px;
+    top: 397px;
     width: 100%;
   }
 
   #main-img {
     width: 271px;
-    height:322.95px;
+    height: 322.95px;
     position: static;
     margin: 0 auto 46.05px auto;
+  }
+}
+
+@media screen and (orientation: landscape) and (max-width: 1317px) {
+  section {
+    margin: 10% 0 0 0;
+  }
+  header {
+    right: 5%;
+  }
+  h1 {
+    margin-left: 12.5%;
+    font-size: 1.35rem;
+    width: 25%;
+    line-height: 115%;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    width: 35%;
+    margin-left: 7.5%;
+    font-size: 1rem;
+  }
+
+button{
+    margin-left:7.5%;
+
+}
+
+  #background-img {
+    width: 50%;
+  }
+
+  #main-img {
+    height: 70%;
+    top: 25%;
+    right: 10%;
   }
 }
