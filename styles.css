@@ -25,13 +25,22 @@ a {
   font-size: 28px;
   line-height: 41px;
   line-height: 100%;
+  cursor: pointer;
 }
 a:nth-child(2) {
   opacity: 0.4;
 }
 
+a:hover {
+  opacity: 0.8;
+}
+
+a:active{
+    opacity: 0.5;
+}
+
 section {
-  margin: 381px 0 0 136px;
+  margin: 21% 0 0 136px;
 }
 
 h1 {
@@ -66,6 +75,15 @@ Button {
   border-radius: 24px;
   border: none;
   background-color: #9499ea;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+button:active {
+  opacity: 0.85;
 }
 
 #background-img {
@@ -73,6 +91,7 @@ Button {
   right: 0;
   top: 0;
   height: 100vh;
+  z-index: -1;
 }
 
 #main-img {
@@ -126,7 +145,7 @@ Button {
   }
 }
 
-@media screen and (orientation: landscape) and (max-width: 1317px) {
+@media screen and (orientation: landscape) and (max-width: 1200px) {
   section {
     margin: 10% 0 0 0;
   }
@@ -148,10 +167,9 @@ Button {
     font-size: 1rem;
   }
 
-button{
-    margin-left:7.5%;
-
-}
+  button {
+    margin-left: 7.5%;
+  }
 
   #background-img {
     width: 50%;
