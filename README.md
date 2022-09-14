@@ -19,5 +19,5 @@ Ilustração da utilização em um dispositivo Desktop:
 </div>
 <br/>
 <br/>
-<p>Para ver o projeto online <a href="" style="tex-decoration:none">clique aqui!</a></p>
+<p>Para ver o projeto online <a href="https://yurimayk.github.io/Shopping/" style="tex-decoration:none">clique aqui!</a></p>
 </div>
